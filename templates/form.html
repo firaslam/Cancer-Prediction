@@ -1,0 +1,45 @@
+<form action="http://127.0.0.1:5000/predict" method="POST">
+
+
+  <div>
+    <label>Radius Mean</label>
+    <input
+      type="text"
+      id="radius_mean"
+      name="radius_mean"
+      placeholder="Enter the Radius Mean"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Texture Mean</label>
+    <input
+      type="text"
+      id="texture_mean"
+      name="texture_mean"
+      placeholder="Enter the Texture Mean"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Smoothness Mean</label>
+    <input
+      type="text"
+      id="smoothness_mean"
+      name="smoothness_mean"
+      placeholder="Enter the Smoothness Mean"
+    />
+  </div>
+  <br />
+  <div>
+    <label>Compactness Mean</label>
+    <input
+      type="text"
+      id="compactness_mean"
+      name="compactness_mean"
+      placeholder="Enter the Compactness Mean"
+    />
+  </div>
+  <br />
+  <button type="submit">Get Prediction</button>
+</form>
