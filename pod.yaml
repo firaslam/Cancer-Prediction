@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prediction
+  labels:
+    app: prediction
+spec:
+  containers:
+    - name: prediction
+      image: firaslam/breast-cancer-detection:1.1 

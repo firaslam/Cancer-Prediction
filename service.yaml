@@ -2,14 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: prediction-service-edge
-  # labels:
-  #   app: prediction
 spec:
   selector:
     app: prediction
+
   ports:
     - name: http
       port: 5000
-      nodePort: 30090
-  
+      nodePort: 30082
+
   type: NodePort
